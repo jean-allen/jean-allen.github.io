@@ -55,7 +55,17 @@
     { "id": "hot-springs", "name": "Hot Springs", "state": "AR", "lat": 34.5217, "lng": -93.0424, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "indiana-dunes", "name": "Indiana Dunes", "state": "IN", "lat": 41.6533, "lng": -87.0524, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "isle-royale", "name": "Isle Royale", "state": "MI", "lat": 48.0998, "lng": -88.5555, "visited": false, "visitDates": "", "blurb": "", "photo": null },
-    { "id": "joshua-tree", "name": "Joshua Tree", "state": "CA", "lat": 33.8734, "lng": -115.9010, "visited": false, "visitDates": "", "blurb": "", "photo": null },
+    {
+      "id": "joshua-tree",
+      "name": "Joshua Tree",
+      "state": "CA",
+      "lat": 33.8734,
+      "lng": -115.9010,
+      "visited": false,
+      "visitDates": "",
+      "blurb": "",
+      "photo": null
+    },
     { "id": "katmai", "name": "Katmai", "state": "AK", "lat": 58.6094, "lng": -155.0064, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "kenai-fjords", "name": "Kenai Fjords", "state": "AK", "lat": 59.9174, "lng": -149.6534, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "kings-canyon", "name": "Kings Canyon", "state": "CA", "lat": 36.8879, "lng": -118.5551, "visited": false, "visitDates": "", "blurb": "", "photo": null },
