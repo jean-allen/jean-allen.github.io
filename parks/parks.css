@@ -1,0 +1,178 @@
+/* National Parks Tracker */
+
+.parks-progress {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.parks-progress strong {
+  color: #54CA95;
+}
+
+.parks-map-wrap {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 10px 20px -12px rgba(0,0,0,.5);
+  margin-bottom: 20px;
+}
+
+#parks-map {
+  height: 480px;
+  width: 100%;
+  background: #eef2f0;
+}
+
+.parks-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 13px;
+  color: #666;
+}
+
+.parks-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.parks-legend-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.parks-legend-dot.visited {
+  background-color: #54CA95;
+  border: 2px solid #2f9c6e;
+}
+
+.parks-legend-dot.unvisited {
+  background-color: #cfcfcf;
+  border: 2px solid #a9a9a9;
+}
+
+/* Leaflet marker styling */
+.park-marker.visited {
+  fill: #54CA95;
+  stroke: #2f9c6e;
+  stroke-width: 2;
+}
+
+.park-marker.unvisited {
+  fill: #cfcfcf;
+  stroke: #a9a9a9;
+  stroke-width: 2;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 6px;
+  font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+.leaflet-popup-content strong {
+  color: #333;
+}
+
+/* Diary panel */
+.diary-panel {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 30px;
+  box-shadow: 0px 10px 20px -14px rgba(0,0,0,.4);
+  min-height: 120px;
+}
+
+.diary-empty {
+  color: #999;
+  font-style: italic;
+  margin: 0;
+}
+
+.diary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.diary-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.diary-dates {
+  color: #54CA95;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.diary-status {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 3px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+.diary-status.visited {
+  background-color: rgba(84,202,149,.15);
+  color: #2f9c6e;
+}
+
+.diary-status.unvisited {
+  background-color: rgba(153,153,153,.12);
+  color: #888;
+}
+
+.diary-body {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.diary-photo {
+  width: 280px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+
+.diary-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+.diary-photo-placeholder {
+  width: 100%;
+  height: 180px;
+  border-radius: 6px;
+  background: #f4f4f4;
+  border: 1px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 13px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.diary-text {
+  flex: 1;
+  min-width: 220px;
+  color: #555;
+  line-height: 1.7;
+}
