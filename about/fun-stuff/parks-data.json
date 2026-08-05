@@ -16,7 +16,17 @@
     { "id": "congaree", "name": "Congaree", "state": "SC", "lat": 33.7948, "lng": -80.7784, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "crater-lake", "name": "Crater Lake", "state": "OR", "lat": 42.8684, "lng": -122.1685, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "cuyahoga-valley", "name": "Cuyahoga Valley", "state": "OH", "lat": 41.2808, "lng": -81.5678, "visited": false, "visitDates": "", "blurb": "", "photo": null },
-    { "id": "death-valley", "name": "Death Valley", "state": "CA/NV", "lat": 36.5054, "lng": -117.0794, "visited": false, "visitDates": "", "blurb": "", "photo": null },
+    {
+      "id": "death-valley",
+      "name": "Death Valley",
+      "state": "CA/NV",
+      "lat": 36.5054,
+      "lng": -117.0794,
+      "visited": true,
+      "visitDates": "",
+      "blurb": "Me and my friend Anna went to Death Valley for a couple of days while she was visiting me in Santa Barbara. Baker was maybe the unexpected highlight of the road trip — we are both lifelong fans of aliens and alien-themed kitsch, so Alien Fresh Jerky ",
+      "photo": "/img/parks/death-valley.jpg"
+    },
     { "id": "denali", "name": "Denali", "state": "AK", "lat": 63.1148, "lng": -151.1926, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "dry-tortugas", "name": "Dry Tortugas", "state": "FL", "lat": 24.6285, "lng": -82.8730, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "everglades", "name": "Everglades", "state": "FL", "lat": 25.2866, "lng": -80.8987, "visited": false, "visitDates": "", "blurb": "", "photo": null },
