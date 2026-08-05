@@ -3,23 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jean Allen | National Parks Tracker</title>
+    <title>Jean Allen | Fun Stuff</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Jean Allen's personal tracker of US National Parks visited, with trip diary entries and photos." />
-    <meta name="keywords" content="national parks, travel, tracker, US national parks map" />
+    <meta name="description" content="Jean Allen's national park tracker and other things outside of work." />
+    <meta name="keywords" content="national parks, travel, tracker, US national parks map, fun stuff" />
     <meta name="author" content="Jean Allen" />
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="../css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link rel="stylesheet" href="/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" type="text/css">
     <link rel="stylesheet" href="parks.css" type="text/css">
 
-    <script src="../js/modernizr.custom.js"></script>
+    <script src="/js/modernizr.custom.js"></script>
   </head>
 
   <body class="page">
@@ -28,90 +28,8 @@
     <div class="page-scroll">
       <div id="page_container" class="page-container bg-move-effect">
 
-        <!-- Header -->
-        <header id="site_header" class="header">
-          <div class="header-content clearfix">
-            <div class="text-logo">
-              <a href="../index.html">
-                <div class="logo-symbol">J</div>
-                <div class="logo-text">Jean <span>Allen</span></div>
-              </a>
-            </div>
-
-            <!-- Navigation -->
-            <div class="site-nav mobile-menu-hide">
-              <ul class="leven-classic-menu site-main-menu">
-                <li class="menu-item menu-item-has-children">
-                  <a href="../index.html">About Me</a>
-                  <ul class="sub-menu">
-                    <li class="menu-item">
-                      <a href="../cv.html">CV</a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="menu-item menu-item-has-children">
-                  <a href="../research/index.html">Research</a>
-                  <ul class="sub-menu">
-
-                    <li class="menu-item">
-                      <a href="../research/publications.html">Publications</a>
-                    </li>
-
-                  </ul>
-                </li>
-
-                <li class="menu-item menu-item-has-children">
-                  <a href="../teaching/index.html">Teaching</a>
-                  <ul class="sub-menu">
-
-                    <li class="menu-item">
-                      <a href="../teaching/teaching_philosophy.html">My Teaching Philosophy</a>
-                    </li>
-
-                    <li class="menu-item">
-                      <a href="../teaching/sample_materials.html">Sample Materials</a>
-                    </li>
-
-                    <li class="menu-item">
-                      <a href="../teaching/teaching_evaluations.html">Teaching Evaluations</a>
-                    </li>
-
-                  </ul>
-                </li>
-
-                <li class="menu-item menu-item-has-children">
-                  <a href="../outreach/index.html">Mentoring & Outreach</a>
-                  <ul class="sub-menu">
-
-                    <li class="menu-item">
-                      <a href="../outreach/sarp.html">SARP Mentoring</a>
-                    </li>
-
-                    <li class="menu-item">
-                      <a href="../outreach/gee_lessons.html">GEE Coding Exercises</a>
-                    </li>
-
-                  </ul>
-                </li>
-
-                <li class="menu-item">
-                  <a href="index.html">National Parks</a>
-                </li>
-
-                <li class="menu-item">
-                  <a href="../contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <a class="menu-toggle mobile-visible">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
-        </header>
-        <!-- /Header -->
+        <!-- Header (shared across all pages, edit /header.html to change nav) -->
+        <script src="/js/include-header.js"></script>
 
         <!-- Main Content -->
         <div id="main" class="site-main">
@@ -119,12 +37,15 @@
             <div id="primary" class="content-area">
               <div id="content" class="page-content site-content single-post" role="main">
                 <div class="page-title">
-                  <h2>National Parks Tracker</h2>
+                  <h2>Fun Stuff</h2>
                 </div>
 
                 <div class="row">
                   <div class="col-xs-12 col-sm-12">
                     <div class="entry-content">
+                      <p>A few things I enjoy outside of research and teaching. More to come.</p>
+
+                      <h3>National Parks Tracker</h3>
                       <p>I'm on a mission to visit every US national park. Green dots below are parks I've checked off, along with a trip diary entry — click one to read about it. Grey dots are still on the list.</p>
 
                       <p class="parks-progress" id="parks-progress-count">Loading progress&hellip;</p>
@@ -171,12 +92,12 @@
     </div>
 
     <!-- Scripts -->
-    <script src="../js/jquery-3.5.1.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/imagesloaded.pkgd.min.js"></script>
-    <script src="../js/owl.carousel.min.js"></script>
-    <script src="../js/jquery.magnific-popup.min.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <script src="parks.js"></script>
   </body>

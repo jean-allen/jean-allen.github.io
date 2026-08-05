@@ -1339,6 +1339,16 @@ td {
     }
 }
 
+/* Divider between groups of links inside a dropdown (e.g. Teaching vs. Mentoring & Outreach) */
+.sub-menu li.sub-menu-divider {
+  height: 0;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,.15);
+  pointer-events: none;
+}
+
 /* ============================================================================= 
 5. Site content
 ============================================================================= */

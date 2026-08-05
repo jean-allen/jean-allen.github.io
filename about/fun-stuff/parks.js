@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var photoHtml;
     if (park.photo) {
-      photoHtml = '<div class="diary-photo"><img src="../img/parks/' + park.photo + '" alt="Photo from ' + park.name + '" ' +
+      photoHtml = '<div class="diary-photo"><img src="/img/parks/' + park.photo + '" alt="Photo from ' + park.name + '" ' +
         'onerror="this.parentElement.innerHTML=\'<div class=&quot;diary-photo-placeholder&quot;>Photo not found: ' + park.photo + '</div>\'"></div>';
     } else {
       photoHtml = '<div class="diary-photo"><div class="diary-photo-placeholder">' +
