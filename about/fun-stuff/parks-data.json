@@ -23,9 +23,9 @@
       "lat": 36.5054,
       "lng": -117.0794,
       "visited": true,
-      "visitDates": "",
-      "blurb": "Me and my friend Anna went to Death Valley for a couple of days while she was visiting me in Santa Barbara. Baker was maybe the unexpected highlight of the road trip — we are both lifelong fans of aliens and alien-themed kitsch, so Alien Fresh Jerky ",
-      "photo": "/img/parks/death-valley.jpg"
+      "visitDates": "March 17-19, 2023",
+      "blurb": "Me and my dear friend Anna went to Death Valley for a couple of days while she was visiting me in Santa Barbara. Baker was maybe the unexpected highlight of the road trip, since we are both lifelong fans of aliens and alien-themed kitsch. I somehow managed to be absurdly underprepared for the desert, though — I completely forgot to bring sunscreen (it cost like $15 at the Death Valley visitor center!) and my sleeping bag was absolutely not warm enough for the cold desert nights. Fortunately Anna was, as always, wonderfully forgiving of my mishaps. We had an amazing time driving around the park and getting out for some short hikes in the heat. My favorite part was Badwater Basin — talk about an alien landscape.",
+      "photo": "death-valley.jpg"
     },
     { "id": "denali", "name": "Denali", "state": "AK", "lat": 63.1148, "lng": -151.1926, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "dry-tortugas", "name": "Dry Tortugas", "state": "FL", "lat": 24.6285, "lng": -82.8730, "visited": false, "visitDates": "", "blurb": "", "photo": null },
@@ -82,7 +82,7 @@
       "visited": true,
       "visitDates": "Jul 24–26, 2026",
       "blurb": "The moment I read about the Narrows top-down hike, I knew that I just had to do it. I had a pretty limited time in the park, but the website said it could be done in one day, so I decided to give it a try. Wow! Not for the faint of heart. 15.7 miles in 12 hours, starting from a long shuttle bus that left at 6am, and if I missed the 8pm shuttle back to Watchman campground, it would've been another 7-mile hike back. I was a lot slower hiking in the river than I had accounted for, so I was pretty nervous about making it back in time. I made it with about 30 minutes to spare, but my feet fell like they were going to fall off by the end. The scenery was well worth it, though. It was so lush and green upriver. Probably the best (and hardest!) day hike I've ever done!",
-      "photo": "/img/parks/zion.jpg"
+      "photo": "zion.jpg"
     }
   ]
 }
