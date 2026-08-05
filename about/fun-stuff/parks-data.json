@@ -1,7 +1,17 @@
 {
   "_readme": "This file is the whole 'database' for the National Parks tracker. Each entry is one of the 63 US national parks. To log a trip: set visited to true, fill in visitDates and blurb, and drop a photo into img/parks/ then reference its filename in the photo field (or leave photo as null to show a placeholder). Coordinates are approximate (visitor center / park centroid) — nudge lat/lng if a pin looks off.",
   "parks": [
-    { "id": "acadia", "name": "Acadia", "state": "ME", "lat": 44.35, "lng": -68.21, "visited": false, "visitDates": "", "blurb": "", "photo": null },
+    {
+      "id": "acadia",
+      "name": "Acadia",
+      "state": "ME",
+      "lat": 44.35,
+      "lng": -68.21,
+      "visited": true,
+      "visitDates": "",
+      "blurb": "Goodness, I've been to Acadia several times now! What a beautiful park. I'll fill this in properly with a trip log next time I visit.",
+      "photo": null
+    },
     { "id": "american-samoa", "name": "American Samoa", "state": "AS", "lat": -14.25, "lng": -170.68, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "arches", "name": "Arches", "state": "UT", "lat": 38.7331, "lng": -109.5925, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "badlands", "name": "Badlands", "state": "SD", "lat": 43.8554, "lng": -102.3397, "visited": false, "visitDates": "", "blurb": "", "photo": null },
@@ -92,7 +102,17 @@
     { "id": "wind-cave", "name": "Wind Cave", "state": "SD", "lat": 43.5725, "lng": -103.4788, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "wrangell-st-elias", "name": "Wrangell-St. Elias", "state": "AK", "lat": 61.7100, "lng": -142.9853, "visited": false, "visitDates": "", "blurb": "", "photo": null },
     { "id": "yellowstone", "name": "Yellowstone", "state": "WY/MT/ID", "lat": 44.4280, "lng": -110.5885, "visited": false, "visitDates": "", "blurb": "", "photo": null },
-    { "id": "yosemite", "name": "Yosemite", "state": "CA", "lat": 37.8651, "lng": -119.5383, "visited": false, "visitDates": "", "blurb": "", "photo": null },
+    {
+      "id": "yosemite",
+      "name": "Yosemite",
+      "state": "CA",
+      "lat": 37.8651,
+      "lng": -119.5383,
+      "visited": true,
+      "visitDates": "May 30-Jun 2, 2025",
+      "blurb": "My mom had wanted to go to Yosemite for years, so her, my dad, and my little sister made a trip out and I drove up to meet them. Yosemite really creeps up on you as you're driving in — one second I was driving through the mountains, and the next second I was surrounded by enormous cliffs and waterfalls. We did a lot of hikes over the few days we had in the park (there were a lot of sights my mom had dreamed of seeing!), but truthfully my favorite was probably just the short little loop in front of the waterfalls. We walked it slowly and went around twice.",
+      "photo": "yosemite.jpg"
+    },
     {
       "id": "zion",
       "name": "Zion",
